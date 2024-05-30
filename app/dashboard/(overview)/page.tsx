@@ -7,6 +7,9 @@ import { Suspense } from 'react';
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton, } from '@/app/ui/skeletons';
 import CardWrapper from '@/app/ui/dashboard/cards';
 
+
+//当您使用括号 () 创建一个新文件夹时，该名称将不包括在 URL 路径中。
+//因此，/dashboard/(overview)/page.tsx 变成了 /dashboard。
 export default async function Page() {
   // const revenue = await fetchRevenue();
   // const latestInvoices = await fetchLatestInvoices();
